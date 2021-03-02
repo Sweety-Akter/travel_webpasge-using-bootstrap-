@@ -1,0 +1,229 @@
+body{
+    font-family: 'Shippori Mincho B1', serif;
+}
+/*====== navigation section  =====*/
+.logo{
+    width: 90px;
+    height: 90px;
+}
+.nav-link{
+    color: #4b4b4b;
+    transition: all .8s ease-in-out;
+    margin-right: 15px;
+}
+.nav-link:hover{
+    color: #be0000;
+}
+.nav-link:last-child{
+   margin-right: 0px;
+}
+.navbar-toggler-icon{
+    font-size: 30px;
+    color: #4b4b4b;
+}
+
+/*======= showcase section =======*/
+#showcase{
+    background-image: url(../img/showcase_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 600px;
+}
+#showcase h1{
+    text-transform: uppercase;
+    font-size: 62px;
+    letter-spacing: 1px;
+}
+/*======= showcase section =======*/
+.card-body{
+    background: rgb(116, 116, 116);
+}
+.card:hover{
+    border: none;
+    outline: none;
+    transition: all .8s ease-in-out;
+    background: rgb(0, 0, 0);
+    opacity: .8;
+    
+}
+.card-body .card-title p{
+    font-size: 16px;
+}
+/*======= showcase section =======*/
+/* .menu-row{
+    height: 450px;
+    background: rebeccapurple;
+} */
+.menu-row img{
+    height: 450px;
+    width: 100%;
+}
+.col-desc{
+    background: rgb(116, 116, 116);
+    height: 100%;
+}
+.col-desc h3{
+    font-size: 33px;
+    font-weight: 700;
+}
+.col-desc p{
+    font-size: 18px;
+}
+.col-desc .btn{
+    background: #e2a355;
+    color: #fff;
+    border-radius: 30px;
+    transition: all .5s ease-in-out;
+}
+.col-desc a{
+    padding: 8px 32px;
+}
+.col-desc a:hover{
+    background: #fff;
+    color: #e2a355;
+}
+.col-desc2{
+    background: #deb37e;
+}
+
+/*====== hiking section =======*/
+#hiking-section{
+    background: #86817c;
+} 
+#hiking-section h2{
+    font-size: 40px;
+}
+/*====== hiking section =======*/
+#explore-section{
+    background-image: url(../img/explore.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 420px;
+} 
+#explore-section h2{
+    font-size: 45px;
+    color: #deb37e;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#explore-section span{
+    color: #54524f;
+}
+/*====== details top section =======*/
+#details-top h3{
+    color: #e2a355;
+    font-weight: bold;
+}
+/*====== details bottom section =======*/
+#details-bottom .colon{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#details-bottom .short-text{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#title{
+    background-color: #e2a355;
+}
+#title h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+#title input{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px 45px;
+}
+#title .btn{
+    background: #4b4b4b;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/*===== contact section ======*/
+#contact{
+    background-color: #4b4b4b;
+}
+#contact p{
+    font-size: 15px;
+}
+.title-heading{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.title-col ul{
+    margin: 0;
+    padding: 0;
+}
+.title-col ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+.title-col ul li:last-child{
+    margin-right: 0px;
+}
+.title-col ul li a{
+    display: block;
+    background: #fff;
+    color: #4b4b4b;
+    padding: 5px 12px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+.title-col ul li a:hover{
+    background: #4b4b4b;
+    color: #fff;
+}
+ .about{
+    margin: 0;
+    padding: 0;
+}
+ .about .about-link{
+    list-style: none;
+}
+
+ .about .about-link a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 0px;
+}
+.about .about-link a:hover{
+   color: red;
+}
+
+@media screen and (max-width:767px){
+    #hiking-section h2{
+        font-size: 35px;
+    }
+    #explore-section h2{
+        font-size: 35px;
+    }
+    #title h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:600px){
+    #showcase h1{
+        font-size: 42px;
+    }
+    #title .inputs{
+        display: grid;
+    }
+    #title .btn{
+        margin-top: 15px;
+    }
+}
+/* @media screen and (max-width:910px){
+    #showcase h1{
+        font-size: 42px;
+    }
+} */

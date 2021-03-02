@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking Website (Using Bootstrap)</title>
+
+    <!------- css links ------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navbar-fixed.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+   <!-------- start navigation section --------> 
+    <nav class="navbar navbar-expand-md bg-light fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="img/logo.png" class="img-fluid logo p-2"></a>
+            <button class="navbar-toggler navbar-toggler-right"
+            data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#showcase">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#story">OUR STORY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!----------- end navigation section ----------->
+
+    <!----------- start showcase section ----------->
+    <section id="showcase" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <h1 class="mt-5 pt-5">It's Time <br> For Hiking</h1>
+                    <p class="lead small-p">LOREM IPSUM DOLOR</p>
+                    <a href="#" class="btn btn-light text-dark mt-3">Read More</a>
+                    <p class="lead mt-3">Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit, sed do iusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- end showcase section ----------->
+
+    <!----------- start story section ----------->
+    <section id="story" class="py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="story-desc">
+                        <h2 class="display-5">LET'S GO</h2>
+                        <p class="lead mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card-columns">
+                        <div class="card">
+                            <img src="img/card1.jpg" class="img-fluid card-img-top">
+                            <div class="card-body text-light py-4">
+                                <div class="card-title">
+                                    <h4>LET'S GO</h4>
+                                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/card2.jpg" class="img-fluid card-img-top">
+                            <div class="card-body text-light py-4">
+                                <div class="card-title">
+                                    <h4>LET'S GO</h4>
+                                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/card3.jpg" class="img-fluid card-img-top">
+                            <div class="card-body text-light py-4">
+                                <div class="card-title">
+                                    <h4>LET'S GO</h4>
+                                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-dark btn-lg mt-4">Show More</a>
+        </div>
+    </section>
+    <!----------- end story section ----------->
+
+    <!----------- start menu section ----------->
+    <section id="menu" class="p-5">
+        <div class="row menu-row">
+            <div class="col-md-6 px-0">
+                <img src="img/menu_img1.jpg">
+            </div>
+
+            <div class="col-md-6 text-light px-0">
+                <div class="col-desc p-5">
+                    <h3 class="mb-3 pt-lg-5">Discount up to <br> 50% All Excursions</h3>
+                    <p class="lead py-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
+                    <a href="#" class="btn btn-lg">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- end menu section ----------->
+
+    <!----------- start hiking section ----------->
+    <section id="hiking-section" class="text-center text-light my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col p-5">
+                    <h2>Hiking in the mountains</h2>
+                    <p class="lead py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati accusantium cumque enim eaque nihil sit ex assumenda molestiae, eveniet quidem doloribus veritatis accusamus tempore expedita!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- end hiking section ----------->
+
+    <!----------- start explore section ----------->
+    <section id="explore-section" class="text-md-right text-center my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col py-5 my-5">
+                    <h2 class="mt-5 pt-4">Explore <br><span>The World</span></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- end explore section ----------->
+
+    <!----------- start details top section ----------->
+    <section id="details-top" class="py-5 text-center text-lg-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="pb-2">Lorem Ipsum</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consecte
+                        sectetur adipisicing elit, tation omne 
+                        ullamco laboris nisi ut aliqolore.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="pb-2">Lorem Ipsum</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consecte
+                        sectetur adipisicing elit, tation omne 
+                        ullamco laboris nisi ut aliqolore.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="pb-2">Lorem Ipsum</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consecte
+                        sectetur adipisicing elit, tation omne 
+                        ullamco laboris nisi ut aliqolore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- end details top section ----------->
+
+    <!----------- start details bottom section ----------->
+    <section id="details-bottom" class="text-center py-5 my-2 my-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="colon m-0 p-0">"</p>
+                    <p class="lead m-0 p-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                    <p class="short-text mt-4">Lorem Ipsum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- end details bottom section ----------->
+
+    <!----------- start title section ----------->
+    <section id="title" class="text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-light">Title Here</h2>
+                    <p class="lead py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus <br> lacinia odio vitae vestibulum vestibulum. </p>
+                    <div class="inputs">
+                        <input type="email" placeholder="Your Email">
+                        <a href="#" class="btn">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- end title section ----------->
+
+    <!----------- start footer section ----------->
+    <footer id="contact" class="py-5 text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 title-col text-center text-md-left">
+                    <h4 class="title-heading">Title Here</h4>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 about-col text-center text-md-left">
+                    <h4 class="title-heading">About</h4>
+                    <ul class="about">
+                        <li class="about-link"><a href="#">History</a></li>
+                        <li class="about-link"><a href="#">Our Team</a></li>
+                        <li class="about-link"><a href="#">Brand Guideliness</a></li>
+                        <li class="about-link"><a href="#">Terms & Conditions</a></li>
+                        <li class="about-link"><a href="#">Privacy Policy</a></li> 
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center text-md-left">
+                    <h4 class="title-heading">Services</h4>
+                    <ul class="about">
+                        <li class="about-link"><a href="#">How to order</a></li>
+                        <li class="about-link"><a href="#">Our Product</a></li>
+                        <li class="about-link"><a href="#">Order Status</a></li>
+                        <li class="about-link"><a href="#">Promo</a></li>
+                        <li class="about-link"><a href="#">Payment Method</a></li> 
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center text-md-left">
+                    <h4 class="title-heading">Others</h4>
+                    <ul class="about">
+                        <li class="about-link"><a href="#">Contact Us</a></li>
+                        <li class="about-link"><a href="#">Help</a></li>
+                        <li class="about-link"><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!----------- end footer section ----------->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/navbar-fixed.js"></script>
+</body>
+</html>
